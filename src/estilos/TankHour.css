@@ -1,0 +1,9 @@
+.tank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textAlert{
+    text-align: center;
+}
