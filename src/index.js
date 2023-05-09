@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-/*setInterval(() => {
+setInterval(() => {
     const data = {
         Humedad: parseFloat((Math.random() * 100).toFixed(2)), // generamos valores aleatorios de 0 a 100 para la humedad con dos decimales
         Temperatura: parseFloat((Math.random() * 50).toFixed(2)), // generamos valores aleatorios de 0 a 50 para la temperatura con dos decimales
@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
         .then(response => console.log(response))
         .catch(error => console.error(error));
 }, 1000); // Envía los datos cada segundo (1000ms)
- */
+
 
 root.render(
   <React.StrictMode>
