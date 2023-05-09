@@ -17,7 +17,7 @@ setInterval(() => {
         Indice: parseFloat((Math.random() * 5).toFixed(2)) // generamos valores aleatorios de 0 a 5 para el índice con dos decimales
     };
 
-    axios.post('http://localhost:4000/api/datos', data)
+    axios.post('https://starfish-app-ds8le.ondigitalocean.app/datos', data)
         .then(response => console.log(response))
         .catch(error => console.error(error));
 }, 1000); // Envía los datos cada segundo (1000ms)
