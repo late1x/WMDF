@@ -20,7 +20,7 @@ setInterval(() => {
     axios.post('https://starfish-app-ds8le.ondigitalocean.app/datos', data)
         .then(response => console.log(response))
         .catch(error => console.error(error));
-}, 1000); // Envía los datos cada segundo (1000ms)
+}, 1000); 
 
 
 
